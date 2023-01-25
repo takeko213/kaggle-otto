@@ -18,6 +18,7 @@ RUN pip install matplotlib-venn
 RUN pip install ipywidgets
 RUN pip install gensim
 RUN pip install annoy
+RUN pip install polars
 
 RUN pip install mlflow
 RUN echo "export PATH=\"`python3 -m site --user-base`/bin:\$PATH\"" >> ~/.bashrc
